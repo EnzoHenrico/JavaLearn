@@ -1,7 +1,7 @@
-package Java.Encapsulation;
+package JavaLearn.Encapsulamento;
 
 // Encapsulamento é uma maneira de atribuir variáveis a uma classe
-// Passando as mesmas de maneira segura e dinamica para os métodos
+// Controlando o acesso de atributos e metodos de um classe
 // O encapsulamento é feito atravéz de métodos getters e setters
 
 public class Main {

@@ -1,16 +1,24 @@
-package Java.ModificadoresAcesso.src.package2;
+package JavaLearn.ModificadoresAcesso.src.package2;
 
-import Java.ModificadoresAcesso.src.package1.Access1;
+import JavaLearn.ModificadoresAcesso.src.package1.Access1;
 
 public class Access4 extends Access1 {
 
-    public void acces() {
+    public void access4() {
 
         // A instancia muda para a subclasse, que extende os parametros de outra classe
         Access4 access = new Access4();
+
+        //(public) Possui visibilidade e acesso em subclasses
+        System.out.println(access.hours);    
         
-        // (protected) O "protected" é visível em uma sua subclasse que extende sua classe raiz 
+        //(private) Private não possui visibilidade em subclasses
+        //System.out.println(access.minutes);
+        
+        //(protected) O "protected" é visível em uma sua subclasse de sua classe de origem
         System.out.println(access.secounds);
-    }
-    
+
+        //(default) Não possui visibilidade em subclasses
+        //System.out.println(access.milissecounds);
+    }    
 }

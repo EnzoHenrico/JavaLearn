@@ -1,20 +1,20 @@
-package Java.ModificadoresAcesso.src.package1;
-
-// Para instanciar classes do mesmo package não é necessário importa-las
-
+package JavaLearn.ModificadoresAcesso.src.package1;
 public class Access2 {
-    public static void main(String[] args) {
+
+    public void access2() {
         
         // Instancia para chamada de métodos da classe "Access1"       
         Access1 access = new Access1();
 
-        //(public) Visível na classe em qualquer escopo
+        //(public) Possui acesso e visibilidade
         System.out.println(access.hours);
         
-        // (private)O private só pode ser acessado na classe em que foi declarado
-        //System.out.println(access.minutes); --> "access" não encontra o objeto "minutes"
+        // (private) Só pode ser acessado diretamente na classe em que foi declarado
+        //System.out.println(access.minutes); -> "access" não encontra o objeto "minutes"
+        // ↓ é necessário um encapsulamento para acessar metodos privados de outra classe
+        System.out.println(access.getMinutes());
        
-        // (protected) A visibilidade e acesso de "seconds" é restrita ao package, portanto é acessível 
+        // (protected) A visibilidade é restrita ao package, portanto é acessível 
         System.out.println(access.secounds);
         
         // (default) Possui visibilidade plena no package, porém não pode ser importado 

@@ -1,8 +1,5 @@
-package Java.ModificadoresAcesso.src.package1;
-
-/** 
- 
- * Modificadores de Acesso são normas passadas a variáveis e métodos que mudam seu acesso e visibilidade
+package JavaLearn.ModificadoresAcesso.src.package1;
+/** Modificadores de Acesso são normas passadas a variáveis e métodos que mudam seu acesso e visibilidade
 
  * ↓ Esses modificadores são ↓
  
@@ -14,16 +11,17 @@ package Java.ModificadoresAcesso.src.package1;
  */
 
 public class Access1 {
-// Nessa classe temos informações a serem passadas para outras classe e consequentemente metodos
 
+    // ↓ Objetos a serem passados para outras classes
     public int hours = 15;
     private int minutes = 24;
     protected int secounds = 50;
-    int milisecounds = 12; // default
+    
+    // default
+    int milisecounds = 12; 
 
+    // Método de encapsulamento para variável privada
     public int getMinutes(){
         return minutes;
     }
-
-// Variáveis passadas para Acces2
 }
