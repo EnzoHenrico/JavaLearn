@@ -8,4 +8,6 @@
 
 - Busco ter uma boa fonte de informação com uma didática boa e completa, abordando níveis de complexidade e vocabulário necessários para construir profissionalismo na comunicação.
 
-    1. Os primeiros conceitos abordados de encapsulamento e modificadores de acesso foram tirados do canal do 'Alex Lee' no youtube, ele faz vídeos focado em Java: https://www.youtube.com/c/AlexLeeYT 
+    1. Os primeiros conceitos abordados de encapsulamento e modificadores de acesso foram tirados do canal do 'Alex Lee' no youtube, ele faz vídeos focado em Java: https://www.youtube.com/c/AlexLeeYT;
+
+ 

@@ -1,11 +1,10 @@
-package JavaLearn.ModificadoresAcesso.src.package2;
+package JavaLearn.ModificadoresAcesso.package2;
 
-// Para instaciar uma classe de outro pacote é necessário importar o arquivo da classe
-import JavaLearn.ModificadoresAcesso.src.package1.Access1;
+import JavaLearn.ModificadoresAcesso.package1.Access1;
 
 public class Access3 {
 
-    public void acces3() {
+    public static void main(String[] args) {
         
         Access1 access = new Access1();
 

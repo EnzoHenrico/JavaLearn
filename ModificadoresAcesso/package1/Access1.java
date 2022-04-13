@@ -1,4 +1,4 @@
-package JavaLearn.ModificadoresAcesso.src.package1;
+package JavaLearn.ModificadoresAcesso.package1;
 /** Modificadores de Acesso são normas passadas a variáveis e métodos que mudam seu acesso e visibilidade
 
  * ↓ Esses modificadores são ↓

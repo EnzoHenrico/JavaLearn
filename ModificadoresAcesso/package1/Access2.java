@@ -1,8 +1,8 @@
-package JavaLearn.ModificadoresAcesso.src.package1;
+package JavaLearn.ModificadoresAcesso.package1;
 public class Access2 {
 
-    public void access2() {
-        
+    public static void main(String[] args) {
+
         // Instancia para chamada de métodos da classe "Access1"       
         Access1 access = new Access1();
 
@@ -19,6 +19,5 @@ public class Access2 {
         
         // (default) Possui visibilidade plena no package, porém não pode ser importado 
         System.out.println(access.milisecounds);
-        
-    } 
+    }
 }

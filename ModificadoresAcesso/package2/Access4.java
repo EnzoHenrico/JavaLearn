@@ -1,11 +1,11 @@
-package JavaLearn.ModificadoresAcesso.src.package2;
+package JavaLearn.ModificadoresAcesso.package2;
 
-import JavaLearn.ModificadoresAcesso.src.package1.Access1;
+import JavaLearn.ModificadoresAcesso.package1.Access1;
 
 public class Access4 extends Access1 {
 
-    public void access4() {
-
+    public static void main(String[] args) {
+        
         // A instancia muda para a subclasse, que extende os parametros de outra classe
         Access4 access = new Access4();
 
