@@ -1,12 +1,21 @@
 package JavaLearn.ModificadoresAcesso.package2;
 
 import JavaLearn.ModificadoresAcesso.package1.Access1;
+import JavaLearn.ModificadoresAcesso.package1.AccessAbstract;
 
-public class Access3 {
+public class Access3 extends AccessAbstract{
 
     public static void main(String[] args) {
         
+        // Instancia de outro package necessita de importação ↑
         Access1 access = new Access1();
+
+        // Para obeter os métodos de uma classe abstrata é necessário extendela
+        Access3 abstractClass = new Access3();
+
+        // Valor dos objetos abstratos
+        System.out.println(abstractClass.key);
+        System.out.println(abstractClass.getKey());
 
         //(public) Possui visibilidade em outros pacotes
         System.out.println(access.hours);

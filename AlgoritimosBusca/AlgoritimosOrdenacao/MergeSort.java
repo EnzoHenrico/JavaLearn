@@ -5,13 +5,10 @@ public class MergeSort {
     public static void main(String[] args) {
     
         // Declaração de array desordenada
-        //int[] items = {5,2,30,63,4,24,8,13,6,100};
-        int[]items = {9,5,8,1,6,4,3,7,10,2};
-        
-        int esquerda = 5 + 1;
-        int direita = 5;
-
-        ordenar(items,esquerda,direita);
+        int[] items2 = {5,2,30,63,4,24,8,13,6,100};
+        int[] items = {9,5,8,1,6,4,3,7,10,2};
+    
+        //ordenar(items,esquerda,direita);
     }
 
     public static void ordenar(int[] items, int esquerda, int direita) {
